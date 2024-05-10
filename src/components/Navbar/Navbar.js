@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Mobile View */}
       <div className={`md:hidden flex justify-between items-center py-4 px-4 ${isOpen ? 'bg-gray-200' : ''}`}>
         {/* Menu Button for Mobile */}
-        <div className="mr-4">
+        <div>
           <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -23,19 +23,19 @@ const Navbar = () => {
 
         {/* Social Media Icons and Website Logo (Fixed) */}
         <div className="flex items-center">
-          <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" className="text-gray-800 mr-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" className="text-gray-800 mr-4" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
           </a>
-          <a href="https://www.instagram.com/YOUR_INSTAGRAM_HANDLE" className="text-gray-800 mr-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/YOUR_INSTAGRAM_HANDLE" className="text-gray-800 mr-4" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="https://www.youtube.com/YOUR_YOUTUBE_CHANNEL" className="text-gray-800 mr-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/YOUR_YOUTUBE_CHANNEL" className="text-gray-800 mr-4" target="_blank" rel="noopener noreferrer">
             <FaYoutube />
           </a>
-          <a href="https://twitter.com/YOUR_TWITTER_HANDLE" className="text-gray-800 mr-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/YOUR_TWITTER_HANDLE" className="text-gray-800 mr-4" target="_blank" rel="noopener noreferrer">
             <FaTwitter />
           </a>
-          <a href="/" className="text-gray-800 font-semibold text-2xl ml-4 mr-2">
+          <a href="/" className="text-gray-800 font-bold text-2xl">
             Maktab
           </a>
           {/* Placeholder for the dummy logo */}
