@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import Maktab from '../../assets/Maktab.JPG'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaWhatsapp, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 
@@ -39,7 +40,7 @@ const Navbar = () => {
             Maktab
           </a>
           {/* Placeholder for the dummy logo */}
-          <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+          <img src={Maktab} className="w-8 h-8 bg-gray-400 rounded-full"></img>
         </div>
       </div>
 
@@ -135,7 +136,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
           <a href="/riyadh" className="mr-4">
-            Riyadh
+            Lagos
           </a>
           <a href="mailto:info@rohamaa.org" className="mr-4">
             info@rohamaa.org
