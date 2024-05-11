@@ -40,7 +40,7 @@ const Navbar = () => {
             Maktab
           </a>
           {/* Placeholder for the dummy logo */}
-          <img src={Maktab} className="w-1 h-1 bg-gray-400 rounded-full"></img>
+          <img src={Maktab} className="w-0.25 h-0.25 bg-gray-400 rounded"></img>
         </div>
       </div>
 
