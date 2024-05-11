@@ -37,10 +37,8 @@ const Navbar = () => {
             <FaTwitter />
           </a>
           <a href="/" className="text-gray-800 font-bold text-2xl">
-            Maktab
+            Maktab Dahwah
           </a>
-          {/* Placeholder for the dummy logo */}
-          <img src={Maktab} className="w-0.25 h-0.25 bg-gray-400 rounded"></img>
         </div>
       </div>
 
