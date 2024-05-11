@@ -13,8 +13,13 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full z-10 bg-white">
+      {/* First Layer with Black Background and Centered Text */}
+      <div className="bg-black text-white text-center py-2">
+        <span>Welcome to Maktab Dahwah</span>
+      </div>
+
       {/* Mobile View */}
-      <div className={`md:hidden flex justify-between items-center py-4 px-4 ${isOpen ? 'bg-gray-200' : ''}`}>
+      <div className={`md:hidden flex justify-between items-center py-6 px-6 ${isOpen ? 'bg-gray-200' : ''}`}>
         {/* Menu Button for Mobile */}
         <div>
           <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
@@ -145,34 +150,36 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex flex-wrap justify-center items-center px-8 py-4 bg-white">
-        <a href="/" className="text-gray-800 mr-6 mb-2">
-          Home
-        </a>
-        <a href="/lectures" className="text-gray-800 mr-6 mb-2">
-          Lectures
-        </a>
-        <a href="/events" className="text-gray-800 mr-6 mb-2">
-          Events
-        </a>
-        <a href="/blog" className="text-gray-800 mr-6 mb-2">
-          Blog
-        </a>
-        <a href="/download-quran" className="text-gray-800 mr-6 mb-2">
-          Download Quran
-        </a>
-        <a href="/pioneers" className="text-gray-800 mr-6 mb-2">
-          Pioneers
-        </a>
-        <a href="/advisors" className="text-gray-800 mr-6 mb-2">
-          Advisors
-        </a>
-        <a href="/qiblah" className="text-gray-800 mr-6 mb -2">
-          Qiblah
-        </a>
-        <a href="/solat-time" className="text-gray-800 mr-6 mb-2">
-          Solat Time
-        </a>
+      <div className="hidden md:flex justify-between items-center px-8 py-4 bg-white">
+        <div className="flex flex-wrap">
+          <a href="/" className="text-gray-800 mr-6 mb-2">
+            Home
+          </a>
+          <a href="/lectures" className="text-gray-800 mr-6 mb-2">
+            Lectures
+          </a>
+          <a href="/events" className="text-gray-800 mr-6 mb-2">
+            Events
+          </a>
+          <a href="/blog" className="text-gray-800 mr-6 mb-2">
+            Blog
+          </a>
+          <a href="/download-quran" className="text-gray-800 mr-6 mb-2">
+            Download Quran
+          </a>
+          <a href="/pioneers" className="text-gray-800 mr-6 mb-2">
+            Pioneers
+          </a>
+          <a href="/advisors" className="text-gray-800 mr-6 mb-2">
+            Advisors
+          </a>
+          <a href="/qiblah" className="text-gray-800 mr-6 mb-2">
+            Qiblah
+          </a>
+          <a href="/solat-time" className="text-gray-800 mr-6 mb-2">
+            Solat Time
+          </a>
+        </div>
         <div className="flex items-center">
           <a href="/" className="text-gray-800 font-bold text-2xl">
             ROHAMA'A Health Society
