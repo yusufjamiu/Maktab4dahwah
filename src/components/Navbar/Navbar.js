@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaWhatsapp, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
-import { GiHouse, GiSettingsKnobs, GiLightBulb } from 'react-icons/gi';
-import { MdChecklist, MdCalendarToday, MdAccessibility } from 'react-icons/md';
-import { IoMdPaper, IoIosConstruct, IoMdRestaurant } from 'react-icons/io';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,47 +42,35 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links for Mobile */}
-      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white rounded-md`}>
-        <div className="grid grid-cols-4 gap-4 p-4">
-          <div className="flex flex-col items-center">
-            <GiHouse className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Home</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <GiSettingsKnobs className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Settings</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <GiLightBulb className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Articles</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <MdChecklist className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Daily goals</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <MdCalendarToday className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Calendar</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <MdAccessibility className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">On this day</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <IoMdPaper className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Salah around the world</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <IoIosConstruct className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Surveys</span>
-          </div>
-          <div className="flex flex-col items-center">
-            <IoMdRestaurant className="text-2xl text-gray-800" />
-            <span className="text-sm text-gray-800">Halal Restaurants</span>
-          </div>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white`}>
+        <div className="border-b border-gray-300">
+          <a href="/" className="block px-4 py-2">Home</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/lectures" className="block px-4 py-2">Lectures</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/events" className="block px-4 py-2">Events</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/blog" className="block px-4 py-2">Blog</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/download-quran" className="block px-4 py-2">Download Quran</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/pioneers" className="block px-4 py -2">Pioneers</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/advisors" className="block px-4 py-2">Advisors</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/qiblah" className="block px-4 py-2">Qiblah</a>
+        </div>
+        <div className="border-b border-gray-300">
+          <a href="/solat-time" className="block px-4 py-2">Solat Time</a>
         </div>
       </div>
-
 
       {/* Desktop View (Unchanged) */}
       <div className="hidden md:flex justify-between items-center px-8 py-2 bg-navy-900 text-white">
@@ -125,7 +110,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
           <a href="/riyadh" className="mr-4">
-            Lagos
+            Riyadh
           </a>
           <a href="mailto:info@rohamaa.org" className="mr-4">
             info@rohamaa.org
@@ -164,9 +149,9 @@ const Navbar = () => {
         <a href="/solat-time" className="text-gray-800 mr-6 mb-2">
           Solat Time
         </a>
-        <div className="flex items-center">
+        <div className="ml-4">
           <a href="/" className="text-gray-800 font-bold text-2xl">
-            ROHAMA'A Health Society
+            Maktab Dahwah
           </a>
         </div>
       </div>
