@@ -44,3 +44,32 @@
 .bg-red-600 { background-color: #dc2626; }
 .bg-orange-500 { background-color: #f97316; }
 .bg-purple-600 { background-color: #7e22ce; }
+
+/* Styles for the new mobile navigation menu */
+.grid {
+  display: grid;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
