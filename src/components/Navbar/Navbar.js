@@ -42,33 +42,34 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links for Mobile */}
+      
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white`}>
         <div className="border-b border-gray-300">
-          <a href="/" className="block px-4 py-2">Home</a>
+          <a href="/" className="block px-4 py-2 bg-blue-100">Home</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/lectures" className="block px-4 py-2">Lectures</a>
+          <a href="/lectures" className="block px-4 py-2 bg-green-100">Lectures</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/events" className="block px-4 py-2">Events</a>
+          <a href="/events" className="block px-4 py-2 bg-yellow-100">Events</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/blog" className="block px-4 py-2">Blog</a>
+          <a href="/blog" className="block px-4 py-2 bg-pink-100">Blog</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/download-quran" className="block px-4 py-2">Download Quran</a>
+          <a href="/download-quran" className="block px-4 py-2 bg-purple-100">Download Quran</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/pioneers" className="block px-4 py -2">Pioneers</a>
+          <a href="/pioneers" className="block px-4 py-2 bg-indigo-100">Pioneers</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/advisors" className="block px-4 py-2">Advisors</a>
+          <a href="/advisors" className="block px-4 py-2 bg-red-100">Advisors</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/qiblah" className="block px-4 py-2">Qiblah</a>
+          <a href="/qiblah" className="block px-4 py-2 bg-orange-100">Qiblah</a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/solat-time" className="block px-4 py-2">Solat Time</a>
+          <a href="/solat-time" className="block px-4 py-2 bg-cyan-100">Solat Time</a>
         </div>
       </div>
 
