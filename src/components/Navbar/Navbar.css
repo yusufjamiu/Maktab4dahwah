@@ -133,9 +133,9 @@
 
 /* Arabic Text */
 .arabic-text {
-  background-color: navy;
+  background-color: rgb(126, 128, 0);
   color: white;
   text-align: center;
-  padding: 10px;
-  font-size: 14px;
+  padding: 5px;
+  font-size: 12px;
 }
