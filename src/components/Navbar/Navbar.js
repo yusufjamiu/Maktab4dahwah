@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-10 bg-white">
       {/* Arabic Text */}
       <div className="arabic-text">
-        نص عربي صغير
+        مكتب الدعوة والمشاريع الخيرية
       </div>
 
       {/* Mobile View */}
