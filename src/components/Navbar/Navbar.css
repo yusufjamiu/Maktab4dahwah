@@ -23,14 +23,16 @@
 .rounded-md { border-radius: 0.375rem; }
 .rounded-t-md { border-top-left-radius: 0.375rem; border-top-right-radius: 0.375rem; }
 .rounded-b-md { border-bottom-left-radius: 0.375rem; border-bottom-right-radius: 0.375rem; }
+
 @media (min-width: 768px) {
-.md\:flex { display: flex; }
-.md\:hidden { display: none; }
-.md\:items-center { align-items: center; }
-.md\:justify-between { justify-content: space-between; }
-.md\:justify-center { justify-content: center; }
-.md\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+  .md\:flex { display: flex; }
+  .md\:hidden { display: none; }
+  .md\:items-center { align-items: center; }
+  .md\:justify-between { justify-content: space-between; }
+  .md\:justify-center { justify-content: center; }
+  .md\:px-8 { padding-left: 2rem; padding-right: 2rem; }
 }
+
 /* Additional styles for mobile navigation links */
 .bg-green-500 { background-color: #22c55e; }
 .bg-blue-600 { background-color: #2563eb; }
@@ -42,3 +44,4 @@
 .bg-red-600 { background-color: #dc2626; }
 .bg-orange-500 { background-color: #f97316; }
 .bg-purple-600 { background-color: #7e22ce; }
+

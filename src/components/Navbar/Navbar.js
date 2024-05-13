@@ -42,34 +42,56 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links for Mobile */}
-      
-      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white`}>
-        <div className="border-b border-gray-300">
-          <a href="/" className="block px-4 py-2 bg-blue-100">Home</a>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white rounded-md`}>
+        <div className="border-b border-gray-300 rounded-t-md">
+          <a href="/" className="block px-4 py-2 bg-green-500 text-white mb-1 rounded-t-md">
+            #Quran
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/lectures" className="block px-4 py-2 bg-green-100">Lectures</a>
+          <a href="/lectures" className="block px-4 py-2 bg-blue-600 text-white mb-1">
+            #Spirituality
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/events" className="block px-4 py-2 bg-yellow-100">Events</a>
+          <a href="/events" className="block px-4 py-2 bg-teal-500 text-white mb-1">
+            #Discovering Islam
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/blog" className="block px-4 py-2 bg-pink-100">Blog</a>
+          <a href="/blog" className="block px-4 py-2 bg-green-700 text-white mb-1">
+            #Shariah
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/download-quran" className="block px-4 py-2 bg-purple-100">Download Quran</a>
+          <a href="/download-quran" className="block px-4 py-2 bg-yellow-500 text-black mb-1">
+            #Videos
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/pioneers" className="block px-4 py-2 bg-indigo-100">Pioneers</a>
+          <a href="/pioneers" className="block px-4 py-2 bg-pink-600 text-white mb-1">
+            #Family & Life
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/advisors" className="block px-4 py-2 bg-red-100">Advisors</a>
+          <a href="/advisors" className="block px-4 py-2 bg-green-600 text-white mb-1">
+            #Fatwa & Counseling
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/qiblah" className="block px-4 py-2 bg-orange-100">Qiblah</a>
+          <a href="/qiblah" className="block px-4 py-2 bg-red-600 text-white mb-1">
+            #Muslim News
+          </a>
         </div>
         <div className="border-b border-gray-300">
-          <a href="/solat-time" className="block px-4 py-2 bg-cyan-100">Solat Time</a>
+          <a href="/solat-time" className="block px-4 py-2 bg-orange-500 text-white mb-1">
+            #Youth Q & A
+          </a>
+        </div>
+        <div className="border-b border-gray-300 rounded-b-md">
+          <a href="/donate" className="block px-4 py-2 bg-purple-600 text-white mb-1 rounded-b-md">
+            #Donate
+          </a>
         </div>
       </div>
 
@@ -111,7 +133,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
           <a href="/riyadh" className="mr-4">
-            Riyadh
+            Lagos
           </a>
           <a href="mailto:info@rohamaa.org" className="mr-4">
             info@rohamaa.org
@@ -150,9 +172,9 @@ const Navbar = () => {
         <a href="/solat-time" className="text-gray-800 mr-6 mb-2">
           Solat Time
         </a>
-        <div className="ml-4">
+        <div className="flex items-center">
           <a href="/" className="text-gray-800 font-bold text-2xl">
-            Maktab Dahwah
+            ROHAMA'A Health Society
           </a>
         </div>
       </div>
