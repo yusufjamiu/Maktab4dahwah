@@ -1,12 +1,12 @@
 import React from 'react';
+import ImageSlider from '../components/ImageSlider';
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to our website!</h1>
-      {/* Add your home page content here */}
+    <div className="flex justify-center items-center h-screen">
+      <ImageSlider />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
