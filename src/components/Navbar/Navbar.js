@@ -12,6 +12,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full z-10 bg-white">
+      {/* Arabic Text */}
+      <div className="arabic-text">
+        نص عربي صغير
+      </div>
+
       {/* Mobile View */}
       <div className={`md:hidden flex justify-between items-center py-4 px-4 ${isOpen ? 'bg-gray-200' : ''}`}>
         {/* Menu Button for Mobile */}
@@ -40,7 +45,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-
+      
       {/* Navigation Links for Mobile */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white rounded-md`}>
         <div className="border-b border-gray-300 rounded-t-md">
